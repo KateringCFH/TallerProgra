@@ -233,12 +233,6 @@
          <URL path="public_html/BajasJ.jsp"/>
          <encoding>windows-1252</encoding>
       </Item>
-      <Item class="oracle.jdeveloper.model.JavaSourceNode">
-         <URL path="src/mypackage1/BajasJForm.java"/>
-      </Item>
-      <Item class="oracle.jdeveloper.model.JavaSourceNode">
-         <URL path="src/mypackage1/BajasJAction.java"/>
-      </Item>
       <Item class="oracle.jdeveloper.model.JspSourceNode">
          <URL path="public_html/EditarE.jsp"/>
          <encoding>windows-1252</encoding>
@@ -278,6 +272,12 @@
       </Item>
       <Item class="oracle.jdeveloper.model.JavaSourceNode">
          <URL path="src/mypackage1/BajasArAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/BajasJAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/BajasJForm.java"/>
       </Item>
    </listOfChildren>
    <ownerMap/>

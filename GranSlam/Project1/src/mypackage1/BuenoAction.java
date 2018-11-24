@@ -575,7 +575,7 @@ if(bot.equals("Eliminar Equipo"))
                 item.setGenj(rsConsulta.getString("genero"));
                 item.setGanaj(rsConsulta.getString("ganancia"));
                 items.add(item);
-                System.out.println("Paso ..");
+                System.out.println("Paso .. bajas jugador plis");
             }
                 BajasJForm f = new BajasJForm ();	   
                 f.setTabla(items);
