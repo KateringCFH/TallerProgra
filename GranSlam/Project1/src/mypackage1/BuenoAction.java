@@ -480,6 +480,80 @@ if(bot.equals("Registrar Equipo") )
             conn.closeConnection();	
           }
     }  
+if(bot.equals("Eliminar Equipo"))
+   {
+     Connection cn = null;
+    ConnectDB conn =new ConnectDB();
+    ResultSet rsConsulta = null;
+    try
+    {
+      cn = conn.conexion;
+      String cadena = " select id_equipo,modalidad from t_equipo order by 1";
+      rsConsulta = conn.getData(cadena);
+      ArrayList items = new ArrayList();
+     while (rsConsulta.next())
+              {
+                ClaseEquipo item = new ClaseEquipo();
+                item.setCodigoeq(rsConsulta.getString("id_equipo"));
+                item.setModalidad(rsConsulta.getString("modalidad"));
+                items.add(item);
+                System.out.println("Paso ..");
+            }
+                BajasEForm f = new BajasEForm ();	   
+                f.setTabla(items);
+                request.getSession().setAttribute("bajas_equipo",f); 
+        to="bajas_e";
+}
+	
+    catch(Exception e)
+    {
+      e.printStackTrace();
+      return (mapping.findForward("mal"));
+    }
+    finally
+    {
+      conn.closeConnection();	
+    }
+   }
+
+     if(bot.equals("Editar Entrenador")){
+          Connection cn = null;
+          ConnectDB conn =new ConnectDB();
+          ResultSet rsConsulta = null;
+          System.out.println("CONEXION ..");
+          try
+          {
+                cn = conn.conexion;
+                System.out.println("qUERY ..");
+                String cadena = " select id_entrenador,nom_entrenador,ap_entrenador from t_entrenador order by 1";
+                rsConsulta = conn.getData(cadena);
+                ArrayList items = new ArrayList();
+                while (rsConsulta.next())
+                {
+                  ClaseEntrenador item = new ClaseEntrenador();
+                  item.setCod_e(rsConsulta.getString("id_entrenador"));
+                  item.setNombre_e(rsConsulta.getString("nom_entrenador"));
+                  item.setApellido_e(rsConsulta.getString("ap_entrenador"));
+                  items.add(item);
+                  System.out.println("Paso ..");
+                }
+                ListarEForm f = new ListarEForm ();	   
+                f.setTabla(items);
+                request.getSession().setAttribute("muestrae",f);  //llamar al listado
+                to="listae";
+          }
+          catch(Exception e)
+          {
+                e.printStackTrace();
+                return (mapping.findForward("malo"));
+          }
+          finally
+          {
+                conn.closeConnection();	
+          }
+   }
+
+
     if(bot.equals("Eliminar Jugador"))
    {
      Connection cn = null;

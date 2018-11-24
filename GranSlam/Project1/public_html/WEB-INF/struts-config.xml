@@ -23,6 +23,7 @@
     <form-bean name="AltasResForm" type="mypackage1.AltaResForm"/>
     <form-bean name="AltasEquipoForm" type="mypackage1.AltasEquipoForm"/>
     <form-bean name="BajasJForm" type="mypackage1.BajasJForm"/>
+    <form-bean name="BajasEForm" type="mypackage1.BajasEForm"/>
   </form-beans>
   <global-forwards>
     <forward name="malo" path="/Malo.jsp"/>
@@ -52,6 +53,7 @@
       <forward name="altares" path="/AltaRes.jsp"/>
       <forward name="listares" path="/ListarRes.jsp"/>
       <forward name="bajas_j" path="/BajasJ.jsp"/>
+      <forward name="bajas_e" path="/BajasEquipo.jsp"/>
     </action>
     <action path="/altj" type="mypackage1.AltasJAction" name="AltasJForm" input="AltasJ.jsp" scope="request">
         <forward name="exito" path="/Bueno.jsp"/>
@@ -95,6 +97,15 @@
        <forward name="exito" path="Bueno.jsp"/>
       <forward name="mal" path="Malo.jsp"/>
     </action>
+    <action path="/bajas_jugador" type="mypackage1.EditarEAction" name="EditarEForm" input="/EditarE.jsp" scope="request">
+       <forward name="exito" path="Bueno.jsp"/>
+      <forward name="mal" path="Malo.jsp"/>
+    </action>
+    <action path="/bajas_equipo" type="mypackage1.BajasEAction" name="BajasEForm" input="/BajasEquipo.jsp" scope="request">
+      <forward name="exito" path="Bueno.jsp"/>
+      <forward name="mal" path="Malo.jsp"/>
+    </action>
+
   </action-mappings>
   <message-resources parameter="mypackage1.ApplicationResources"/>
 </struts-config>
