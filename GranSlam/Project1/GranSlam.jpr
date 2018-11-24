@@ -1,0 +1,491 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<project xmlns="http://xmlns.oracle.com/jdeveloper/903/jproject" nselem="project" class="oracle.jdeveloper.model.JProject">
+   <defaultPackage>mypackage1</defaultPackage>
+   <defaultPackages class="java.util.ArrayList">
+      <Item class="java.lang.String">mypackage1</Item>
+   </defaultPackages>
+   <dependencyList/>
+   <htmlRootDirectory path="public_html/"/>
+   <j2eeWebAppName>Tenis-GranSlam-webapp</j2eeWebAppName>
+   <j2eeWebContextRoot>Tenis-GranSlam-context-root</j2eeWebContextRoot>
+   <listOfChildren class="oracle.ide.model.DataList">
+      <Item class="oracle.jdeveloper.deploy.war.dd.WebAppNode">
+         <URL path="public_html/WEB-INF/web.xml"/>
+      </Item>
+      <Item class="oracle.jdevimpl.web.struts.StrutsConfigNode">
+         <URL path="public_html/WEB-INF/struts-config.xml"/>
+      </Item>
+      <Item class="oracle.ide.model.DeployableTextNode">
+         <URL path="src/mypackage1/ApplicationResources.properties"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/Inicial.jsp" id="0"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/Bueno.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/Malo.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/InicialForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/InicialAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/BuenoForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/BuenoAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/AltasJ.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/ListarJ.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasJForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/Bien.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasJAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/AltasE.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/AltasA.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/AltasP.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/AltasT.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/ListarA.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/ListarE.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/ListarP.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasAForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasEForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasPForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasTForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasAAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasEAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasPAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasTAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ConnectDB.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/ListarT.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarJForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ClaseJugador.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarJAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ClaseEquipo.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarEForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ClaseEntrenador.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarEAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarAAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarAForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ClassArbitro.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarTForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/ListarF.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarFForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/ListarM.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarMForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/AltasF.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/AltasM.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasFForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasMForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasFAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltasMAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarPForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ClasePartido.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/AltaRes.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/ListarRes.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarResAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltaResAction.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ListarResForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/AltaResForm.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JavaSourceNode">
+         <URL path="src/mypackage1/ClaseRes.java"/>
+      </Item>
+      <Item class="oracle.jdeveloper.model.JspSourceNode">
+         <URL path="public_html/ErrorPage.jsp"/>
+         <encoding>windows-1252</encoding>
+      </Item>
+   </listOfChildren>
+   <ownerMap/>
+   <projectDocPath>
+      <entries class="[Ljava.net.URL;"/>
+   </projectDocPath>
+   <projectLibraryList class="oracle.jdeveloper.library.JProjectLibraryList">
+      <jdkList class="java.util.ArrayList"/>
+      <libraryList class="java.util.ArrayList"/>
+   </projectLibraryList>
+   <projectSettings>
+      <activeConfigName>Development</activeConfigName>
+      <commonData class="java.util.HashMap">
+         <Item>
+            <Key>oracle.bm.commonIde.data.project.ModelerProjectSettings</Key>
+            <Value class="oracle.bm.commonIde.data.project.ModelerProjectSettings">
+               <modelersPath>
+                  <entries>
+                     <Item path="model/"/>
+                  </entries>
+               </modelersPath>
+            </Value>
+         </Item>
+         <Item>
+            <Key>oracle.jdeveloper.compiler.ant.AntConfiguration</Key>
+            <Value class="oracle.jdeveloper.compiler.ant.AntConfiguration">
+               <arguments class="java.lang.String"/>
+               <makeTarget/>
+               <projectBuildfile/>
+               <rebuildTarget/>
+               <showOutput>true</showOutput>
+            </Value>
+         </Item>
+      </commonData>
+      <configurations class="java.util.TreeMap">
+         <Item>
+            <Key>Development</Key>
+            <Value class="oracle.jdeveloper.model.JProjectConfiguration">
+               <configData class="java.util.HashMap">
+                  <Item>
+                     <Key>oracle.jdeveloper.compiler.OjcConfiguration</Key>
+                     <Value class="oracle.jdeveloper.compiler.OjcConfiguration">
+                        <assertionsEnabled>false</assertionsEnabled>
+                        <copyRes>
+                           <Item>.gif</Item>
+                           <Item>.properties</Item>
+                           <Item>.jpg</Item>
+                           <Item>.jpeg</Item>
+                           <Item>.xml</Item>
+                           <Item>-apf.xml</Item>
+                        </copyRes>
+                        <currentEncoding>Cp1252</currentEncoding>
+                        <debugInformation>true</debugInformation>
+                        <excludedClasses class="[Ljava.lang.String;"/>
+                        <obfuscate>false</obfuscate>
+                        <showCompileProgress>false</showCompileProgress>
+                        <showDeprecations>true</showDeprecations>
+                        <showObjectDotStaticWarnings>false</showObjectDotStaticWarnings>
+                        <showPartialImportWarnings>false</showPartialImportWarnings>
+                        <showSelfDeprecations>true</showSelfDeprecations>
+                        <showUnusedImportWarnings>false</showUnusedImportWarnings>
+                        <showWarnings>true</showWarnings>
+                        <target>Default</target>
+                        <updateImports>false</updateImports>
+                        <updateZipJarImports>false</updateZipJarImports>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdeveloper.javadoc.JProjectJavadoc</Key>
+                     <Value class="oracle.jdeveloper.javadoc.JProjectJavadoc">
+                        <generateAuthor>false</generateAuthor>
+                        <generateDeprecated>true</generateDeprecated>
+                        <generateIndex>true</generateIndex>
+                        <generateNavbar>true</generateNavbar>
+                        <generateSince>true</generateSince>
+                        <generateTree>true</generateTree>
+                        <generateVersion>false</generateVersion>
+                        <heapSize>32</heapSize>
+                        <miscOptions class="java.lang.String"/>
+                        <oneOneFormat>false</oneOneFormat>
+                        <outputDirectory path="javadoc/"/>
+                        <scope>-protected</scope>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdeveloper.runner.RunConfiguration</Key>
+                     <Value class="oracle.jdeveloper.runner.RunConfiguration">
+                        <VMName>ojvm</VMName>
+                        <allowInput>false</allowInput>
+                        <alwaysUseTarget>false</alwaysUseTarget>
+                        <clearLogBeforeRun>false</clearLogBeforeRun>
+                        <compileBeforeRun>true</compileBeforeRun>
+                        <connectionName/>
+                        <javaOptions class="java.lang.String"/>
+                        <logCommand>true</logCommand>
+                        <logError>true</logError>
+                        <logExit>true</logExit>
+                        <logOutput>true</logOutput>
+                        <programArguments class="java.lang.String"/>
+                        <runActiveFile>true</runActiveFile>
+                        <runDirectoryURL/>
+                        <targetURL idref="0"/>
+                        <useProxy>true</useProxy>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.config.JProjectLibraries</Key>
+                     <Value class="oracle.jdevimpl.config.JProjectLibraries">
+                        <jdkName>1.3.1_02</jdkName>
+                        <jdkVersionNumber>1.3.1_02</jdkVersionNumber>
+                        <libraries>JDeveloper Runtime;JSP Runtime;Struts Runtime;Servlet Runtime;Oracle JDBC</libraries>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.config.JProjectPaths</Key>
+                     <Value class="oracle.jdevimpl.config.JProjectPaths">
+                        <additionalClassPath>
+                           <entries>
+                              <Item path="public_html/WEB-INF/lib/commons-beanutils.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-collections.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-dbcp.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-digester.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-fileupload.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-lang.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-logging.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-pool.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-resources.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-services.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/commons-validator.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/jakarta-oro.jar" jar-entry=""/>
+                              <Item path="public_html/WEB-INF/lib/struts.jar" jar-entry=""/>
+                           </entries>
+                        </additionalClassPath>
+                        <outputDirectory path="classes/"/>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.idl.config.IdlConfiguration</Key>
+                     <Value class="oracle.jdevimpl.idl.config.IdlConfiguration">
+                        <codeForIncludedFiles>false</codeForIncludedFiles>
+                        <noBindMethods>false</noBindMethods>
+                        <noComments>false</noComments>
+                        <noExampleCode>false</noExampleCode>
+                        <noSkeletonCode>false</noSkeletonCode>
+                        <noStubCode>false</noStubCode>
+                        <noTieCode>false</noTieCode>
+                        <noToString>false</noToString>
+                        <objectWrapper>false</objectWrapper>
+                        <packageName class="java.lang.String"/>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.codecoach.CCConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.codecoach.CCConfiguration">
+                        <advices>ALL</advices>
+                        <exclude>com;java;javax;sun;sunw;org;oracle</exclude>
+                        <include class="java.lang.String"/>
+                        <level>4</level>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.debug.DebugConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.debug.DebugConfiguration">
+                        <JPDAClassicDebugArguments>-Xdebug -Xnoagent -Djava.compiler=NONE -Xrunjdwp:transport=dt_socket,server=y,address=&lt;port></JPDAClassicDebugArguments>
+                        <JPDADebugArguments>-Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=&lt;port></JPDADebugArguments>
+                        <OJVMDebugArguments>-XXdebug,quiet,port&lt;port></OJVMDebugArguments>
+                        <breakpointScope>workspace</breakpointScope>
+                        <remoteDebugging>false</remoteDebugging>
+                        <remoteDebuggingParameters class="java.util.HashMap"/>
+                        <remoteDebuggingParametersSaved>false</remoteDebuggingParametersSaved>
+                        <remoteDebuggingProtocol>ojvm</remoteDebuggingProtocol>
+                        <startOption>running</startOption>
+                        <tracingDisabled>java;javax;sun;sunw;com.sun;org.xml.sax</tracingDisabled>
+                        <tracingEnabled class="java.lang.String"/>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.runner.profile.ProfileConfiguration</Key>
+                     <Value class="oracle.jdevimpl.runner.profile.ProfileConfiguration">
+                        <DMSstartID>20000</DMSstartID>
+                        <DMSstate>0</DMSstate>
+                        <eventColumnVisible>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                        </eventColumnVisible>
+                        <events>G(All events;(G(VM Events;(E(0;GC;-16776961;1);E(10;Wait;-65485;0);E(11;Synch Blocks 0;-39322;0);E(12;Synch Blocks 1;-39322;0);E(13;Synch Blocks 2;-39322;0);E(20;Prepare Class;-16751002;0);E(21;Load Class;-16724992;0);E(22;Resolve Class;-16737997;0);));G(BC4J Events;(E(1000;JBO_MISCELLANEOUS;-4144960;1);E(1001;JDBC_SELECT;-256;1);E(1002;JDBC_CREATE_STATEMENT;-256;1);E(1003;JDBC_CONNECT;-256;1);E(1004;JDBC_CREATE_PREPARED_STATEMENT;-256;1);E(1005;JDBC_EXECUTE;-256;1);E(1006;METAOBJECT_LOAD;-65281;1);E(1007;EXECUTE_QUERY;-16776961;1);E(1008;BC4J_CREATE_COMPOBJ;-65281;0);E(1009;BC4J_CREATE_ROOTAM;-65281;1);E(1010;BC4J_CREATE_VIEWOBJECT;-65281;0);E(1011;BC4J_CREATE_AM;-65281;0);E(1012;BC4J_CREATE_VIEWLINK;-65281;0);E(1013;SQLB_DOENTITYDML;-16776961;1);E(1014;SQLB_DOENTITYSELECT;-16776961;1);E(1015;VIEWOBJECT_GETSTATEMENT;-16776961;1);E(1016;REMOTE_METHOD_CALL;-65536;1);));));</events>
+                        <excludedClasses>java;javax;sun;sunw;com;oracle</excludedClasses>
+                        <excludedInstances class="java.lang.String"/>
+                        <includedClasses class="java.lang.String"/>
+                        <includedInstances class="java.lang.String"/>
+                        <localProfiling>true</localProfiling>
+                        <memColumnVisible>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                        </memColumnVisible>
+                        <memoryUpdateInterval>10</memoryUpdateInterval>
+                        <remoteHost class="java.lang.String"/>
+                        <remoteParametersSaved>false</remoteParametersSaved>
+                        <remotePort>4000</remotePort>
+                        <sampleColumnVisible>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                           <Item>true</Item>
+                        </sampleColumnVisible>
+                        <sampleInterval>5</sampleInterval>
+                        <sliderDepth>20</sliderDepth>
+                        <useAPI>false</useAPI>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>oracle.jdevimpl.sqlj.config.SqljConfiguration</Key>
+                     <Value class="oracle.jdevimpl.sqlj.config.SqljConfiguration">
+                        <checkSemantics>false</checkSemantics>
+                        <codegen>oracle</codegen>
+                        <contextConnectionMap class="java.util.HashMap"/>
+                        <useCache>false</useCache>
+                        <warnAll>false</warnAll>
+                        <warnNull>false</warnNull>
+                        <warnPortable>false</warnPortable>
+                        <warnPrecision>false</warnPrecision>
+                        <warnStrict>false</warnStrict>
+                        <warnVerbose>false</warnVerbose>
+                     </Value>
+                  </Item>
+                  <Item>
+                     <Key>WebappJspCompilerOptions</Key>
+                     <Value class="oracle.jdevimpl.webapp.jsp.JspCompilerOptions">
+                        <forgiveDuplicateDirectiveAttributes>false</forgiveDuplicateDirectiveAttributes>
+                        <requestTimeIntrospection>false</requestTimeIntrospection>
+                        <validate>true</validate>
+                     </Value>
+                  </Item>
+               </configData>
+            </Value>
+         </Item>
+      </configurations>
+   </projectSettings>
+   <projectSourcePath>
+      <entries>
+         <Item path="src/"/>
+      </entries>
+   </projectSourcePath>
+   <properties class="java.util.HashMap">
+      <Item>
+         <Key>CachedConfigTable</Key>
+         <Value class="oracle.jsp.parse.CachedConfigTable"/>
+      </Item>
+   </properties>
+   <userAuthor/>
+   <userCompany/>
+   <userCopyright/>
+   <userDescription/>
+   <userTitle/>
+   <userVersion/>
+</project>

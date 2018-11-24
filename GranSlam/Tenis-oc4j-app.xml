@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE orion-application PUBLIC "-//Evermind//DTD J2EE Application runtime 1.2//EN" "http://xmlns.oracle.com/ias/dtds/orion-application.dtd">
+<orion-application>
+   <web-module id="Tenis-GranSlam-webapp" path="C:\jdev9032\jdev\mywork\GitTaller\TallerProgra\GranSlam\Project1\public_html"/>
+  <log>
+    <file path="Tenis-oc4j-app.log"/>
+  </log>
+   <data-sources path="C:\jdev9032\jdev\mywork\GitTaller\TallerProgra\GranSlam\Tenis-data-sources.xml"/>
+</orion-application>

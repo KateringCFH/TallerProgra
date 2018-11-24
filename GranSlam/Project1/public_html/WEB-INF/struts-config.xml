@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'windows-1252'?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <form-beans>
+    <form-bean name="InicialForm" type="mypackage1.InicialForm"/>
+    <form-bean name="BuenoForm" type="mypackage1.BuenoForm"/>
+    <form-bean name="GesJForm" type="mypackage1.GesJForm"/>
+    <form-bean name="AltasJForm" type="mypackage1.AltasJForm"/>
+    <form-bean name="AltasAForm" type="mypackage1.AltasAForm"/>
+    <form-bean name="AltasEForm" type="mypackage1.AltasEForm"/>
+    <form-bean name="AltasPForm" type="mypackage1.AltasPForm"/>
+    <form-bean name="AltasTForm" type="mypackage1.AltasTForm"/>
+    <form-bean name="ListarJForm" type="mypackage1.ListarJForm"/>
+    <form-bean name="ListarEForm" type="mypackage1.ListarEForm"/>
+    <form-bean name="ListarAForm" type="mypackage1.ListarAForm"/>
+    <form-bean name="ListarTForm" type="mypackage1.ListarTForm"/>
+    <form-bean name="ListarFForm" type="mypackage1.ListarFForm"/>
+    <form-bean name="ListarMForm" type="mypackage1.ListarMForm"/>
+    <form-bean name="AltasFForm" type="mypackage1.AltasFForm"/>
+    <form-bean name="AltasMForm" type="mypackage1.AltasMForm"/>
+    <form-bean name="ListarPForm" type="mypackage1.ListarPForm"/>
+    <form-bean name="ListarResForm" type="mypackage1.ListarResForm"/>
+    <form-bean name="AltasResForm" type="mypackage1.AltaResForm"/>
+    <form-bean name="AltasEquipoForm" type="mypackage1.AltasEquipoForm"/>
+  </form-beans>
+  <global-forwards>
+    <forward name="malo" path="/Malo.jsp"/>
+    <forward name="bien" path="/Bien.jsp"/>
+  </global-forwards>
+  <action-mappings>
+    <action path="/inicial" type="mypackage1.InicialAction" name="InicialForm" scope="request" input="Inicial.jsp">
+      <forward name="exito" path="/Bueno.jsp"/>
+      <forward name="fallo" path="/Malo.jsp"/>
+    </action>
+    <action path="/menu" type="mypackage1.BuenoAction" name="BuenoForm" input="Bueno.jsp" scope="request">
+      <forward name="altaj" path="/AltasJ.jsp"/>
+      <forward name="altaa" path="/AltasA.jsp"/>
+      <forward name="altap" path="/AltasP.jsp"/>
+      <forward name="altat" path="/AltasT.jsp"/>
+      <forward name="altae" path="/AltasE.jsp"/>
+      <forward name="listaj" path="/ListarJ.jsp"/>
+      <forward name="listaa" path="/ListarA.jsp"/>
+      <forward name="listap" path="/ListarP.jsp"/>
+      <forward name="listat" path="/ListarT.jsp"/>
+      <forward name="listae" path="/ListarE.jsp"/>
+      <forward name="listaf" path="/ListarF.jsp"/>
+      <forward name="altaf" path="/AltasF.jsp"/>
+      <forward name="listam" path="/ListarM.jsp"/>
+      <forward name="altam" path="/AltasM.jsp"/>
+      <forward name="altares" path="/AltaRes.jsp"/>
+      <forward name="listares" path="/ListarRes.jsp"/>
+    </action>
+    <action path="/altj" type="mypackage1.AltasJAction" name="AltasJForm" input="AltasJ.jsp" scope="request">
+        <forward name="exito" path="/Bueno.jsp"/>
+    </action>
+    <action path="/alta" type="mypackage1.AltasAAction" name="AltasAForm" input="/AltasA.jsp" scope="request">
+      <forward name="registro_exitoso" path="Bueno.jsp"/>
+    </action>
+    
+    <action path="/alte" type="mypackage1.AltasEAction" name="AltasEForm" input="/AltasE.jsp" scope="request">
+      <forward name="registro_exitoso" path="Bueno.jsp"/>
+    </action> 
+    
+    <action path="/altp" type="mypackage1.AltasPAction" name="AltasPForm" input="/AltasP.jsp" scope="request">
+     <forward name="exito" path="Bueno.jsp"/>
+    </action>
+    <action path="/altt" type="mypackage1.AltasTAction" name="AltasTForm" input="/AltasT.jsp" scope="request">
+      <forward name="exito" path="Bueno.jsp"/>
+    </action>
+    <action path="/listaj" type="mypackage1.ListarJAction" name="ListarJForm" scope="request"/>
+    <action path="/listaj" type="mypackage1.ListarJAction" name="ListarJForm" input="/ListarJ.jsp" scope="request"/>
+    <action path="/listarE" type="mypackage1.ListarEAction" name="ListarEForm" input="/ListarE.jsp" scope="request"/>
+    <action path="/lis" type="mypackage1.ListarAAction"/>
+    <action path="/listarA" type="mypackage1.ListarAAction" name="ListarAForm" input="/ListarA.jsp" scope="request"/>
+    <action path="/altaf" type="mypackage1.AltasFAction" name="AltasFForm" input="/AltasF.jsp" scope="request">
+      <forward name="exito" path="Bueno.jsp"/>
+    </action>
+    <action path="/altam" type="mypackage1.ListarMAction" name="AltasMForm" scope="request">
+      <forward name="exito" path="Bueno.jsp"/>
+    </action>
+    <action name="ListarPForm" path="/listarP" scope="request" type="oracle.jbo.html.struts11.actions.TransactionAction"/>
+    <action path="/listares" type="mypackage1.ListarResAction" name="ListarResForm" scope="request"/>
+    <action path="/altares" type="mypackage1.AltaResAction" name="AltasResForm" scope="request">
+      <forward name="exito" path="Bueno.jsp"/>
+      <forward name="fallo" path="Malo.jsp"/>
+    </action>
+    <action path="/altaeq" type="mypackage1.AltasEquipoAction"/>
+       
+  </action-mappings>
+  <message-resources parameter="mypackage1.ApplicationResources"/>
+</struts-config>
