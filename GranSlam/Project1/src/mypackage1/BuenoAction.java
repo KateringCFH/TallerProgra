@@ -130,7 +130,8 @@ public class BuenoAction extends Action
 
     if(bot.equals("Registrar Entrenador") )
       to="altae";
-
+if(bot.equals("Registrar Equipo") )
+      to="altaeq";
       
    if(bot.equals("Listar Entrenador")){
           Connection cn = null;
@@ -479,6 +480,47 @@ public class BuenoAction extends Action
             conn.closeConnection();	
           }
     }  
+    if(bot.equals("Eliminar Jugador"))
+   {
+     Connection cn = null;
+    ConnectDB conn =new ConnectDB();
+    ResultSet rsConsulta = null;
+    try
+    {
+      cn = conn.conexion;
+      String cadena = " select id_jugador,id_equipo,id_entrenador,nom_j,ap_j,genero,ganancia from t_jugador order by 1";
+      rsConsulta = conn.getData(cadena);
+      ArrayList items = new ArrayList();
+     while (rsConsulta.next())
+              {
+                ClaseJugador item = new ClaseJugador();
+                item.setCodigoj(rsConsulta.getString("id_jugador"));
+                item.setCodigoeq(rsConsulta.getString("id_equipo"));
+                item.setCodigoe(rsConsulta.getString("id_entrenador"));
+                item.setNomj(rsConsulta.getString("nom_j"));
+                item.setApj(rsConsulta.getString("ap_j"));
+                item.setGenj(rsConsulta.getString("genero"));
+                item.setGanaj(rsConsulta.getString("ganancia"));
+                items.add(item);
+                System.out.println("Paso ..");
+            }
+                BajasJForm f = new BajasJForm ();	   
+                f.setTabla(items);
+                request.getSession().setAttribute("bajas_jugador",f); 
+                to="bajas_j";
+}
+	
+    catch(Exception e)
+    {
+      e.printStackTrace();
+      return (mapping.findForward("mal"));
+    }
+    finally
+    {
+      conn.closeConnection();	
+    }
+   }
+
 
     return mapping.findForward(to);
   }

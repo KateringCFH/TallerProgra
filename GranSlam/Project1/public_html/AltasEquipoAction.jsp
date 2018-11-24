@@ -10,7 +10,7 @@ Hello World
 </head>
 <body>
 <h2>
-The current time is: 
+ALTA EQUIPO 
 </h2>
 Registrar nuevo Equipo
 </h2>
@@ -32,3 +32,4 @@ Registrar nuevo Equipo
 </html:form>
 </body>
 </html>
+
