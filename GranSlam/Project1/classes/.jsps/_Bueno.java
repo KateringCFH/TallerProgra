@@ -376,7 +376,7 @@ public class _Bueno extends com.orionserver.http.OrionHttpJspPage {
               org.apache.struts.taglib.html.SubmitTag __jsp_taghandler_17=(org.apache.struts.taglib.html.SubmitTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.SubmitTag.class,"org.apache.struts.taglib.html.SubmitTag property value");
               __jsp_taghandler_17.setParent(__jsp_taghandler_1);
               __jsp_taghandler_17.setProperty("boton");
-              __jsp_taghandler_17.setValue("Editar Arbitro");
+              __jsp_taghandler_17.setValue("Eliminar Arbitro");
               __jsp_tag_starteval=__jsp_taghandler_17.doStartTag();
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {

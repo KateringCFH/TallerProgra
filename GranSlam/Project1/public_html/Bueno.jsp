@@ -41,7 +41,7 @@ Menu para Gestionar el torneo GRAN SLAM- MENU
     <td><html:submit property="boton" value="Registrar Arbitro" /></td>
     <td><html:submit property="boton" value="Listar Arbitro" /></td>
     <td><html:submit property="boton" value="Editar Arbitro" /></td>
-    <td><html:submit property="boton" value="Editar Arbitro" /></td>
+    <td><html:submit property="boton" value="Eliminar Arbitro" /></td>
 </tr>
 <tr align="center"><td colspan=4>Gestion de Partidos</td></tr>
 <tr align="center">

@@ -4,19 +4,27 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<style type="text/css">
+    <%@include file="Bootstrap/css/bootstrap.css" %>
+    
+</style>
 <title>
 Hello World
 </title>
 </head>
 <body>
-<h2>
-Gran Salm
-</h2>
+<br>
+<h1 class="text-center">
+GRANDSLAM
+</h1>
 <html:form action="/inicial">
-<table  cellspacing="2" cellpadding="1" border="1" width="100%">
-<tr>
-<td colspan=2>Ingreso de usuario </td>
-</tr>
+<div class="col-lg-5 ml-auto mr-auto">
+<table  class="table">
+<thead class="thead-dark">
+  <tr>
+    <th scope="col" colspan=2 class="text-center">INGRESO DE USUARIOS </th>
+  </tr>
+</thead>
 <tr>
     <td><bean:message key="ini.usu" /></td>
     <td><html:text property="usuario" /></td>
@@ -29,6 +37,7 @@ Gran Salm
     <td colspan=2><html:submit value="Ingresar" /></td>
 </tr>
 </table>
+</div>
 </html:form>
 </body>
 </html>

@@ -553,7 +553,6 @@ if(bot.equals("Eliminar Equipo"))
           }
    }
 
-
     if(bot.equals("Eliminar Jugador"))
    {
      Connection cn = null;
@@ -594,6 +593,83 @@ if(bot.equals("Eliminar Equipo"))
       conn.closeConnection();	
     }
    }
+
+
+if(bot.equals("Eliminar Entrenador"))
+   {
+     Connection cn = null;
+    ConnectDB conn =new ConnectDB();
+    ResultSet rsConsulta = null;
+    try
+    {
+      cn = conn.conexion;
+      String cadena = " select ID_ENTRENADOR, NOM_ENTRENADOR, AP_ENTRENADOR from t_entrenador order by 1";
+      rsConsulta = conn.getData(cadena);
+      ArrayList items = new ArrayList();
+     while (rsConsulta.next())
+              {
+                ClaseEntrenador item = new ClaseEntrenador();
+                item.setCod_e(rsConsulta.getString("ID_ENTRENADOR"));
+                item.setNombre_e(rsConsulta.getString("NOM_ENTRENADOR"));
+                item.setApellido_e(rsConsulta.getString("AP_ENTRENADOR"));
+              
+                items.add(item);
+                System.out.println("Paso ..");
+            }
+                BajasEnForm f = new BajasEnForm();	   
+                f.setTabla(items);
+                request.getSession().setAttribute("bajas_entrenador",f); 
+        to="bajas_entrenador";
+}
+	
+    catch(Exception e)
+    {
+      e.printStackTrace();
+      return (mapping.findForward("mal"));
+    }
+    finally
+    {
+      conn.closeConnection();	
+    }
+   }
+
+if(bot.equals("Eliminar Arbitro"))
+   {
+    Connection cn = null;
+    ConnectDB conn =new ConnectDB();
+    ResultSet rsConsulta = null;
+    try
+    {
+      cn = conn.conexion;
+      String cadena = " select ID_ARBITRO, NOM_ARBITRO, AP_ARBITRO from t_arbitro order by 1";
+      rsConsulta = conn.getData(cadena);
+      ArrayList items = new ArrayList();
+     while (rsConsulta.next())
+              {
+                ClassArbitro item = new ClassArbitro();
+                item.setCod_a(rsConsulta.getString("ID_ARBITRO"));
+                item.setNombre_a(rsConsulta.getString("NOM_ARBITRO"));
+                item.setApellido_a(rsConsulta.getString("AP_ARBITRO"));
+                items.add(item);
+                System.out.println("Paso ..");
+            }
+                BajasArForm f = new BajasArForm ();	   
+                f.setTabla(items);
+                request.getSession().setAttribute("bajas_arbitro",f); 
+        to="bajas_arbitro";
+}
+	
+    catch(Exception e)
+    {
+      e.printStackTrace();
+      return (mapping.findForward("mal"));
+    }
+    finally
+    {
+      conn.closeConnection();	
+    }
+   }
+
 
 
     return mapping.findForward(to);

@@ -24,6 +24,8 @@
     <form-bean name="AltasEquipoForm" type="mypackage1.AltasEquipoForm"/>
     <form-bean name="BajasJForm" type="mypackage1.BajasJForm"/>
     <form-bean name="BajasEForm" type="mypackage1.BajasEForm"/>
+    <form-bean name="BajasEnForm" type="mypackage1.BajasEnForm"/>
+    <form-bean name="BajasArForm" type="mypackage1.BajasArForm"/>
   </form-beans>
   <global-forwards>
     <forward name="malo" path="/Malo.jsp"/>
@@ -54,6 +56,8 @@
       <forward name="listares" path="/ListarRes.jsp"/>
       <forward name="bajas_j" path="/BajasJ.jsp"/>
       <forward name="bajas_e" path="/BajasEquipo.jsp"/>
+      <forward name="bajas_entrenador" path="/BajasEntrenador.jsp"/>
+      <forward name="bajas_arbitro" path="/BajasArbitro.jsp"/>
     </action>
     <action path="/altj" type="mypackage1.AltasJAction" name="AltasJForm" input="AltasJ.jsp" scope="request">
         <forward name="exito" path="/Bueno.jsp"/>
@@ -102,6 +106,15 @@
       <forward name="mal" path="Malo.jsp"/>
     </action>
     <action path="/bajas_equipo" type="mypackage1.BajasEAction" name="BajasEForm" input="/BajasEquipo.jsp" scope="request">
+      <forward name="exito" path="Bueno.jsp"/>
+      <forward name="mal" path="Malo.jsp"/>
+    </action>
+      
+    <action path="/bajas_entrenador" type="mypackage1.BajasEnAction" name="BajasEnForm" input="/BajasEntrenador.jsp" scope="request">
+      <forward name="exito" path="Bueno.jsp"/>
+      <forward name="mal" path="Malo.jsp"/>
+    </action>
+    <action path="/bajas_arbitro" type="mypackage1.BajasArAction" name="BajasArForm" input="/BajasArbitro.jsp" scope="request">
       <forward name="exito" path="Bueno.jsp"/>
       <forward name="mal" path="Malo.jsp"/>
     </action>
