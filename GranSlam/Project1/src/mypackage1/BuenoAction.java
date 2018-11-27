@@ -130,8 +130,87 @@ public class BuenoAction extends Action
 
     if(bot.equals("Registrar Entrenador") )
       to="altae";
+
+      if(bot.equals("Editar Entrenador"))
+     {
+     Connection cn = null;
+    ConnectDB conn =new ConnectDB();
+    ResultSet rsConsulta = null;
+    try
+    {
+      cn = conn.conexion;
+      String cadena = " select ID_ENTRENADOR ,NOM_ENTRENADOR,AP_ENTRENADOR from t_entrenador order by 1";
+      rsConsulta = conn.getData(cadena);
+      ArrayList items = new ArrayList();
+      while (rsConsulta.next())
+      {
+        ClaseEntrenador item = new ClaseEntrenador();
+        item.setCod_e(rsConsulta.getString("ID_ENTRENADOR"));
+        item.setNombre_e(rsConsulta.getString("NOM_ENTRENADOR"));
+        item.setApellido_e(rsConsulta.getString("AP_ENTRENADOR"));
+        
+       
+        items.add(item);
+        System.out.println("Paso ..");
+      }
+      
+  ModEnForm f = new ModEnForm ();	   
+    f.setTabla(items);
+    request.getSession().setAttribute("mod_entrenador",f);
+
+      to="modificar_entrenador";
+    }
+	    catch(Exception e)
+    {
+      e.printStackTrace();
+      return (mapping.findForward("mal"));
+    }
+    finally
+    {
+      conn.closeConnection();	
+    }
+     }
+
 if(bot.equals("Registrar Equipo") )
       to="altaeq";
+       if(bot.equals("Editar Equipo"))
+    {
+            Connection cn = null;
+            ConnectDB conn =new ConnectDB();
+            ResultSet rsConsulta = null;
+            System.out.println("CONEXION ..");
+            try
+            {
+              cn = conn.conexion;
+              System.out.println("qUERY ..");
+              String cadena = "select * from t_equipo";
+              rsConsulta = conn.getData(cadena);
+              ArrayList items = new ArrayList();
+              while (rsConsulta.next())
+              {
+                ClaseEquipo item = new ClaseEquipo();
+                item.setCodigoeq(rsConsulta.getString("id_equipo"));
+                item.setModalidad(rsConsulta.getString("modalidad"));
+            
+                items.add(item);
+                System.out.println("Paso ..");
+            }
+                EditarEqForm f = new EditarEqForm ();	   
+                f.setTabla(items);
+                request.getSession().setAttribute("muestraeq",f);  //llamar al listado
+                to="editareq";
+            }
+            catch(Exception e)
+            {
+              e.printStackTrace();
+              return (mapping.findForward("malo"));
+            }
+            finally
+            {
+              conn.closeConnection();	
+            }
+   }
+
       
    if(bot.equals("Listar Entrenador")){
           Connection cn = null;

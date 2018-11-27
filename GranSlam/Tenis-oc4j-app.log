@@ -3512,3 +3512,1824 @@ com.evermind.server.http.HttpIOException: Connection aborted by peer: socket wri
 24/11/18 9:50 Tenis-GranSlam-webapp: JDevOJSP: init
 24/11/18 9:50 Tenis-GranSlam-webapp: action: init
 24/11/18 9:50 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 9:56 Started
+24/11/18 9:57 Started
+24/11/18 9:58 Started
+24/11/18 9:59 Started
+24/11/18 10:00 Started
+24/11/18 10:01 Started
+24/11/18 10:01 Started
+24/11/18 10:02 Started
+24/11/18 10:02 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:02 Tenis-GranSlam-webapp: action: init
+24/11/18 10:03 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:12 Started
+24/11/18 10:12 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:12 Tenis-GranSlam-webapp: action: init
+24/11/18 10:12 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:12 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarEq
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _EditarEq._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		EditarEq.jsp:27
+	void com.orionserver[Oracle9iAS (9.0.3.0.0) Containers for J2EE].http.OrionHttpJspPage.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		OrionHttpJspPage.java:56
+	void oracle.jsp.runtimev2.JspPageTable.compileAndServe(oracle.jsp.runtimev2.JspPageInfo, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspPageTable.java:537
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:272
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 10:15 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:15 Tenis-GranSlam-webapp: action: init
+24/11/18 10:15 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:15 Started
+24/11/18 10:15 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:15 Tenis-GranSlam-webapp: action: init
+24/11/18 10:15 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:16 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:16 Tenis-GranSlam-webapp: action: init
+24/11/18 10:16 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:38 Started
+24/11/18 10:38 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:38 Tenis-GranSlam-webapp: action: init
+24/11/18 10:38 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:39 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:39 Tenis-GranSlam-webapp: action: init
+24/11/18 10:39 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:42 Started
+24/11/18 10:42 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:42 Tenis-GranSlam-webapp: action: init
+24/11/18 10:42 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:43 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Missing message for key alte.nombreq
+	int org.apache.struts.taglib.bean.MessageTag.doStartTag()
+		MessageTag.java:298
+	void _EditarActEquipo._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		EditarActEquipo.jsp:25
+	void com.orionserver[Oracle9iAS (9.0.3.0.0) Containers for J2EE].http.OrionHttpJspPage.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		OrionHttpJspPage.java:56
+	void oracle.jsp.runtimev2.JspPageTable.compileAndServe(oracle.jsp.runtimev2.JspPageInfo, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspPageTable.java:537
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:272
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 10:44 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:44 Tenis-GranSlam-webapp: action: init
+24/11/18 10:44 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:44 Started
+24/11/18 10:44 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:44 Tenis-GranSlam-webapp: action: init
+24/11/18 10:44 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:46 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:46 Tenis-GranSlam-webapp: action: init
+24/11/18 10:46 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:46 Started
+24/11/18 10:46 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:46 Tenis-GranSlam-webapp: action: init
+24/11/18 10:46 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:47 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:47 Tenis-GranSlam-webapp: action: init
+24/11/18 10:47 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:54 Tenis-GranSlam-webapp: 9.0.3.0.0 Stopped
+24/11/18 10:54 Started
+24/11/18 10:54 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 10:54 Tenis-GranSlam-webapp: action: init
+24/11/18 10:54 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 10:54 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve definition for form bean InicialForm
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:897
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _Inicial._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		Inicial.jsp:20
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:797
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 11:20 Started
+24/11/18 11:20 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 11:20 Tenis-GranSlam-webapp: action: init
+24/11/18 11:20 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 11:20 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve definition for form bean null
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:897
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _Inicial._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		Inicial.jsp:20
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 11:21 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve definition for form bean null
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:897
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _Inicial._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		Inicial.jsp:20
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 11:21 Started
+24/11/18 11:23 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 11:23 Tenis-GranSlam-webapp: action: init
+24/11/18 11:23 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 11:23 Started
+24/11/18 11:23 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 11:23 Tenis-GranSlam-webapp: action: init
+24/11/18 11:23 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 11:23 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve definition for form bean EditarEqForm
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:897
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _EditarEq._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		EditarEq.jsp:27
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 11:28 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 11:28 Tenis-GranSlam-webapp: action: init
+24/11/18 11:28 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 11:28 Started
+24/11/18 11:28 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 11:28 Tenis-GranSlam-webapp: action: init
+24/11/18 11:28 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 11:29 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 11:29 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 11:59 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 11:59 Tenis-GranSlam-webapp: action: init
+24/11/18 11:59 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 11:59 Started
+24/11/18 11:59 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 11:59 Tenis-GranSlam-webapp: action: init
+24/11/18 11:59 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 11:59 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve definition for form bean null
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:897
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _EditarEq._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		EditarEq.jsp:27
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 11:59 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 11:59 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:04 Started
+24/11/18 12:04 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:04 Tenis-GranSlam-webapp: action: init
+24/11/18 12:04 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:05 Started
+24/11/18 12:05 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:05 Tenis-GranSlam-webapp: action: init
+24/11/18 12:05 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:05 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:05 Tenis-GranSlam-webapp: action: init
+24/11/18 12:05 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:07 Started
+24/11/18 12:07 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:07 Tenis-GranSlam-webapp: action: init
+24/11/18 12:07 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:09 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:09 Tenis-GranSlam-webapp: action: init
+24/11/18 12:09 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:11 Started
+24/11/18 12:11 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:11 Tenis-GranSlam-webapp: action: init
+24/11/18 12:11 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:11 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /altaeq
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _AltasEquipoAction._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		AltasEquipoAction.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:12 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:12 Tenis-GranSlam-webapp: action: init
+24/11/18 12:12 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:12 Started
+24/11/18 12:12 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:12 Tenis-GranSlam-webapp: action: init
+24/11/18 12:12 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:14 Started
+24/11/18 12:14 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:14 Tenis-GranSlam-webapp: action: init
+24/11/18 12:14 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:14 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:14 Tenis-GranSlam-webapp: action: init
+24/11/18 12:14 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:17 Started
+24/11/18 12:17 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:17 Tenis-GranSlam-webapp: action: init
+24/11/18 12:17 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:18 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:18 Tenis-GranSlam-webapp: JspServlet: No se ha podido distribuir a la página solicitada: com.evermind.server.http.HttpIOException: Connection aborted by peer: socket write error
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int, javax.servlet.jsp.JspWriter)
+		EvermindServletOutputStream.java:249
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int)
+		EvermindServletOutputStream.java:150
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[])
+		EvermindServletOutputStream.java:145
+	void com.evermind.server.http.EvermindHttpServletResponse.sendError(int, java.lang.String)
+		EvermindHttpServletResponse.java:1349
+	void com.evermind.server.http.EvermindHttpServletResponse.handleException(java.lang.Throwable, com.evermind.server.http.EvermindHttpServletRequest)
+		EvermindHttpServletResponse.java:1708
+	void com.evermind.server.http.EvermindPageContext.handlePageThrowable(java.lang.Throwable)
+		EvermindPageContext.java:560
+	void com.evermind.server.http.EvermindPageContext.handlePageException(java.lang.Throwable)
+		EvermindPageContext.java:518
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:31
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind.server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind.server.http.HttpRequestHandler.processRequest(com.evermind.server.ApplicationServerThread, com.evermind.server.http.EvermindHttpServletRequest, com.evermind.server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind.server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind.server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+
+24/11/18 12:18 Tenis-GranSlam-webapp: OracleJSP:
+<HTML><BODY>
+<P> <H2  ALIGN=CENTER>Error JSP:</H2> <HR  ALIGN=CENTER> <P>
+<P><H3>URI de Solicitud:/Tenis-GranSlam-context-root/ListarE.jsp</H3><P>
+<BR><H3>Excepción:</H3><PRE>
+com.evermind.server.http.HttpIOException: Connection aborted by peer: socket write error
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int, javax.servlet.jsp.JspWriter)
+		EvermindServletOutputStream.java:249
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int)
+		EvermindServletOutputStream.java:150
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[])
+		EvermindServletOutputStream.java:145
+	void com.evermind.server.http.EvermindHttpServletResponse.sendError(int, java.lang.String)
+		EvermindHttpServletResponse.java:1349
+	void com.evermind.server.http.EvermindHttpServletResponse.handleException(java.lang.Throwable, com.evermind.server.http.EvermindHttpServletRequest)
+		EvermindHttpServletResponse.java:1708
+	void com.evermind.server.http.EvermindPageContext.handlePageThrowable(java.lang.Throwable)
+		EvermindPageContext.java:560
+	void com.evermind.server.http.EvermindPageContext.handlePageException(java.lang.Throwable)
+		EvermindPageContext.java:518
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+	[/ListarE.jsp]
+		ListarE.jsp:31
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+		[SRC:/ListarE.jsp:29]
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind.server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind.server.http.HttpRequestHandler.processRequest(com.evermind.server.ApplicationServerThread, com.evermind.server.http.EvermindHttpServletRequest, com.evermind.server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind.server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind.server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+
+</PRE>
+<P><P><HR ALIGN=CENTER>
+</HTML></BODY>
+
+24/11/18 12:18 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:797
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:18 Tenis-GranSlam-webapp: JspServlet: No se ha podido distribuir a la página solicitada: com.evermind.server.http.HttpIOException: Connection aborted by peer: socket write error
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int, javax.servlet.jsp.JspWriter)
+		EvermindServletOutputStream.java:249
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int)
+		EvermindServletOutputStream.java:150
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[])
+		EvermindServletOutputStream.java:145
+	void com.evermind.server.http.EvermindHttpServletResponse.sendError(int, java.lang.String)
+		EvermindHttpServletResponse.java:1349
+	void com.evermind.server.http.EvermindHttpServletResponse.handleException(java.lang.Throwable, com.evermind.server.http.EvermindHttpServletRequest)
+		EvermindHttpServletResponse.java:1708
+	void com.evermind.server.http.EvermindPageContext.handlePageThrowable(java.lang.Throwable)
+		EvermindPageContext.java:560
+	void com.evermind.server.http.EvermindPageContext.handlePageException(java.lang.Throwable)
+		EvermindPageContext.java:518
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:31
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind.server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind.server.http.HttpRequestHandler.processRequest(com.evermind.server.ApplicationServerThread, com.evermind.server.http.EvermindHttpServletRequest, com.evermind.server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind.server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind.server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:797
+	void java.lang.Thread.run()
+		Thread.java:484
+
+24/11/18 12:18 Tenis-GranSlam-webapp: OracleJSP:
+<HTML><BODY>
+<P> <H2  ALIGN=CENTER>Error JSP:</H2> <HR  ALIGN=CENTER> <P>
+<P><H3>URI de Solicitud:/Tenis-GranSlam-context-root/ListarE.jsp</H3><P>
+<BR><H3>Excepción:</H3><PRE>
+com.evermind.server.http.HttpIOException: Connection aborted by peer: socket write error
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int, javax.servlet.jsp.JspWriter)
+		EvermindServletOutputStream.java:249
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int)
+		EvermindServletOutputStream.java:150
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[])
+		EvermindServletOutputStream.java:145
+	void com.evermind.server.http.EvermindHttpServletResponse.sendError(int, java.lang.String)
+		EvermindHttpServletResponse.java:1349
+	void com.evermind.server.http.EvermindHttpServletResponse.handleException(java.lang.Throwable, com.evermind.server.http.EvermindHttpServletRequest)
+		EvermindHttpServletResponse.java:1708
+	void com.evermind.server.http.EvermindPageContext.handlePageThrowable(java.lang.Throwable)
+		EvermindPageContext.java:560
+	void com.evermind.server.http.EvermindPageContext.handlePageException(java.lang.Throwable)
+		EvermindPageContext.java:518
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+	[/ListarE.jsp]
+		ListarE.jsp:31
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+		[SRC:/ListarE.jsp:29]
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind.server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind.server.http.HttpRequestHandler.processRequest(com.evermind.server.ApplicationServerThread, com.evermind.server.http.EvermindHttpServletRequest, com.evermind.server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind.server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind.server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:797
+	void java.lang.Thread.run()
+		Thread.java:484
+
+</PRE>
+<P><P><HR ALIGN=CENTER>
+</HTML></BODY>
+
+24/11/18 12:18 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:797
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:18 Tenis-GranSlam-webapp: JspServlet: No se ha podido distribuir a la página solicitada: com.evermind.server.http.HttpIOException: Connection aborted by peer: socket write error
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int, javax.servlet.jsp.JspWriter)
+		EvermindServletOutputStream.java:249
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int)
+		EvermindServletOutputStream.java:150
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[])
+		EvermindServletOutputStream.java:145
+	void com.evermind.server.http.EvermindHttpServletResponse.sendError(int, java.lang.String)
+		EvermindHttpServletResponse.java:1349
+	void com.evermind.server.http.EvermindHttpServletResponse.handleException(java.lang.Throwable, com.evermind.server.http.EvermindHttpServletRequest)
+		EvermindHttpServletResponse.java:1708
+	void com.evermind.server.http.EvermindPageContext.handlePageThrowable(java.lang.Throwable)
+		EvermindPageContext.java:560
+	void com.evermind.server.http.EvermindPageContext.handlePageException(java.lang.Throwable)
+		EvermindPageContext.java:518
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:31
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind.server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind.server.http.HttpRequestHandler.processRequest(com.evermind.server.ApplicationServerThread, com.evermind.server.http.EvermindHttpServletRequest, com.evermind.server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind.server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind.server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:797
+	void java.lang.Thread.run()
+		Thread.java:484
+
+24/11/18 12:18 Tenis-GranSlam-webapp: OracleJSP:
+<HTML><BODY>
+<P> <H2  ALIGN=CENTER>Error JSP:</H2> <HR  ALIGN=CENTER> <P>
+<P><H3>URI de Solicitud:/Tenis-GranSlam-context-root/ListarE.jsp</H3><P>
+<BR><H3>Excepción:</H3><PRE>
+com.evermind.server.http.HttpIOException: Connection aborted by peer: socket write error
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int, javax.servlet.jsp.JspWriter)
+		EvermindServletOutputStream.java:249
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int)
+		EvermindServletOutputStream.java:150
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[])
+		EvermindServletOutputStream.java:145
+	void com.evermind.server.http.EvermindHttpServletResponse.sendError(int, java.lang.String)
+		EvermindHttpServletResponse.java:1349
+	void com.evermind.server.http.EvermindHttpServletResponse.handleException(java.lang.Throwable, com.evermind.server.http.EvermindHttpServletRequest)
+		EvermindHttpServletResponse.java:1708
+	void com.evermind.server.http.EvermindPageContext.handlePageThrowable(java.lang.Throwable)
+		EvermindPageContext.java:560
+	void com.evermind.server.http.EvermindPageContext.handlePageException(java.lang.Throwable)
+		EvermindPageContext.java:518
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+	[/ListarE.jsp]
+		ListarE.jsp:31
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+		[SRC:/ListarE.jsp:29]
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind.server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind.server.http.HttpRequestHandler.processRequest(com.evermind.server.ApplicationServerThread, com.evermind.server.http.EvermindHttpServletRequest, com.evermind.server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind.server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind.server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:797
+	void java.lang.Thread.run()
+		Thread.java:484
+
+</PRE>
+<P><P><HR ALIGN=CENTER>
+</HTML></BODY>
+
+24/11/18 12:18 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:18 Tenis-GranSlam-webapp: JspServlet: No se ha podido distribuir a la página solicitada: com.evermind.server.http.HttpIOException: Connection aborted by peer: socket write error
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int, javax.servlet.jsp.JspWriter)
+		EvermindServletOutputStream.java:249
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int)
+		EvermindServletOutputStream.java:150
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[])
+		EvermindServletOutputStream.java:145
+	void com.evermind.server.http.EvermindHttpServletResponse.sendError(int, java.lang.String)
+		EvermindHttpServletResponse.java:1349
+	void com.evermind.server.http.EvermindHttpServletResponse.handleException(java.lang.Throwable, com.evermind.server.http.EvermindHttpServletRequest)
+		EvermindHttpServletResponse.java:1708
+	void com.evermind.server.http.EvermindPageContext.handlePageThrowable(java.lang.Throwable)
+		EvermindPageContext.java:560
+	void com.evermind.server.http.EvermindPageContext.handlePageException(java.lang.Throwable)
+		EvermindPageContext.java:518
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:31
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind.server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind.server.http.HttpRequestHandler.processRequest(com.evermind.server.ApplicationServerThread, com.evermind.server.http.EvermindHttpServletRequest, com.evermind.server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind.server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind.server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+
+24/11/18 12:18 Tenis-GranSlam-webapp: OracleJSP:
+<HTML><BODY>
+<P> <H2  ALIGN=CENTER>Error JSP:</H2> <HR  ALIGN=CENTER> <P>
+<P><H3>URI de Solicitud:/Tenis-GranSlam-context-root/ListarE.jsp</H3><P>
+<BR><H3>Excepción:</H3><PRE>
+com.evermind.server.http.HttpIOException: Connection aborted by peer: socket write error
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int, javax.servlet.jsp.JspWriter)
+		EvermindServletOutputStream.java:249
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[], int, int)
+		EvermindServletOutputStream.java:150
+	void com.evermind.server.http.EvermindServletOutputStream.write(byte[])
+		EvermindServletOutputStream.java:145
+	void com.evermind.server.http.EvermindHttpServletResponse.sendError(int, java.lang.String)
+		EvermindHttpServletResponse.java:1349
+	void com.evermind.server.http.EvermindHttpServletResponse.handleException(java.lang.Throwable, com.evermind.server.http.EvermindHttpServletRequest)
+		EvermindHttpServletResponse.java:1708
+	void com.evermind.server.http.EvermindPageContext.handlePageThrowable(java.lang.Throwable)
+		EvermindPageContext.java:560
+	void com.evermind.server.http.EvermindPageContext.handlePageException(java.lang.Throwable)
+		EvermindPageContext.java:518
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+	[/ListarE.jsp]
+		ListarE.jsp:31
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+		[SRC:/ListarE.jsp:29]
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind.server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind.server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind.server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind.server.http.HttpRequestHandler.processRequest(com.evermind.server.ApplicationServerThread, com.evermind.server.http.EvermindHttpServletRequest, com.evermind.server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind.server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind.server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+
+</PRE>
+<P><P><HR ALIGN=CENTER>
+</HTML></BODY>
+
+24/11/18 12:18 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:19 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve definition for form bean null
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:897
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _EditarEq._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		EditarEq.jsp:27
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:19 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:24 Tenis-GranSlam-webapp: 9.0.3.0.0 Stopped
+24/11/18 12:24 Started
+24/11/18 12:24 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:24 Tenis-GranSlam-webapp: action: init
+24/11/18 12:24 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:24 Tenis-GranSlam-webapp: 9.0.3.0.0 Stopped
+24/11/18 12:24 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:24 Tenis-GranSlam-webapp: action: init
+24/11/18 12:24 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+24/11/18 12:24 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve definition for form bean null
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:897
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _EditarEq._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		EditarEq.jsp:27
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+24/11/18 12:26 Started
+24/11/18 12:26 Tenis-GranSlam-webapp: JDevOJSP: init
+24/11/18 12:26 Tenis-GranSlam-webapp: action: init
+24/11/18 12:26 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+25/11/18 3:41 Started
+25/11/18 3:41 Tenis-GranSlam-webapp: JDevOJSP: init
+25/11/18 3:41 Tenis-GranSlam-webapp: action: init
+25/11/18 3:41 Tenis-GranSlam-webapp: 9.0.3.0.0 Started
+25/11/18 3:42 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484
+25/11/18 3:42 Tenis-GranSlam-webapp: Servlet error
+javax.servlet.jsp.JspException: Cannot retrieve mapping for action /listarE
+	void org.apache.struts.taglib.html.FormTag.lookup()
+		FormTag.java:871
+	int org.apache.struts.taglib.html.FormTag.doStartTag()
+		FormTag.java:543
+	void _ListarE._jspService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ListarE.jsp:18
+	void oracle.jsp.runtime.HttpJsp.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpJsp.java:139
+	void oracle.jsp.runtimev2.JspPageTable.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, java.lang.String)
+		JspPageTable.java:317
+	void oracle.jsp.runtimev2.JspServlet.internalService(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:465
+	void oracle.jsp.runtimev2.JspServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		JspServlet.java:379
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forward(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:209
+	void org.apache.struts.action.RequestProcessor.doForward(java.lang.String, javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:1014
+	void org.apache.struts.action.RequestProcessor.processForwardConfig(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.config.ForwardConfig)
+		RequestProcessor.java:417
+	void org.apache.struts.action.RequestProcessor.processActionForward(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse, org.apache.struts.action.ActionForward)
+		RequestProcessor.java:390
+	void org.apache.struts.action.RequestProcessor.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		RequestProcessor.java:271
+	void org.apache.struts.action.ActionServlet.process(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:1292
+	void org.apache.struts.action.ActionServlet.doPost(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		ActionServlet.java:510
+	void javax.servlet.http.HttpServlet.service(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
+		HttpServlet.java:760
+	void javax.servlet.http.HttpServlet.service(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		HttpServlet.java:853
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.invoke(javax.servlet.ServletRequest, javax.servlet.ServletResponse)
+		ServletRequestDispatcher.java:721
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.ServletRequestDispatcher.forwardInternal(javax.servlet.ServletRequest, javax.servlet.http.HttpServletResponse)
+		ServletRequestDispatcher.java:306
+	boolean com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.processRequest(com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.ApplicationServerThread, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletRequest, com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.EvermindHttpServletResponse, java.io.InputStream, java.io.OutputStream, boolean)
+		HttpRequestHandler.java:767
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run(java.lang.Thread)
+		HttpRequestHandler.java:259
+	void com.evermind[Oracle9iAS (9.0.3.0.0) Containers for J2EE].server.http.HttpRequestHandler.run()
+		HttpRequestHandler.java:106
+	void EDU.oswego.cs.dl.util.concurrent.PooledExecutor$Worker.run()
+		PooledExecutor.java:803
+	void java.lang.Thread.run()
+		Thread.java:484

@@ -10,64 +10,72 @@
     <form-bean name="AltasEForm" type="mypackage1.AltasEForm"/>
     <form-bean name="AltasPForm" type="mypackage1.AltasPForm"/>
     <form-bean name="AltasTForm" type="mypackage1.AltasTForm"/>
+    <form-bean name="AltasFForm" type="mypackage1.AltasFForm"/>
+    <form-bean name="AltasMForm" type="mypackage1.AltasMForm"/>
+    <form-bean name="AltasResForm" type="mypackage1.AltaResForm"/>
+    <form-bean name="AltasEquipoForm" type="mypackage1.AltasEquipoForm"/>
+     <form-bean name="EditarEqForm" type="mypackage1.EditarEqForm"/>
     <form-bean name="ListarJForm" type="mypackage1.ListarJForm"/>
     <form-bean name="ListarEForm" type="mypackage1.ListarEForm"/>
     <form-bean name="ListarAForm" type="mypackage1.ListarAForm"/>
     <form-bean name="ListarTForm" type="mypackage1.ListarTForm"/>
     <form-bean name="ListarFForm" type="mypackage1.ListarFForm"/>
     <form-bean name="ListarMForm" type="mypackage1.ListarMForm"/>
-    <form-bean name="AltasFForm" type="mypackage1.AltasFForm"/>
-    <form-bean name="AltasMForm" type="mypackage1.AltasMForm"/>
     <form-bean name="ListarPForm" type="mypackage1.ListarPForm"/>
     <form-bean name="ListarResForm" type="mypackage1.ListarResForm"/>
-    <form-bean name="AltasResForm" type="mypackage1.AltaResForm"/>
-    <form-bean name="AltasEquipoForm" type="mypackage1.AltasEquipoForm"/>
     <form-bean name="BajasJForm" type="mypackage1.BajasJForm"/>
     <form-bean name="BajasEForm" type="mypackage1.BajasEForm"/>
     <form-bean name="BajasEnForm" type="mypackage1.BajasEnForm"/>
     <form-bean name="BajasArForm" type="mypackage1.BajasArForm"/>
+
   </form-beans>
   <global-forwards>
     <forward name="malo" path="/Malo.jsp"/>
     <forward name="bien" path="/Bien.jsp"/>
   </global-forwards>
   <action-mappings>
-    <action path="/inicial" type="mypackage1.InicialAction" name="InicialForm" scope="request" input="Inicial.jsp">
+    <action path="/inicial" type="mypackage1.InicialAction" name="InicialForm" scope="request">
       <forward name="exito" path="/Bueno.jsp"/>
       <forward name="fallo" path="/Malo.jsp"/>
     </action>
-    <action path="/menu" type="mypackage1.BuenoAction" name="BuenoForm" input="Bueno.jsp" scope="request">
+    <action path="/menu" type="mypackage1.BuenoAction" name="BuenoForm" input="/Bueno.jsp" scope="request">
       <forward name="altaj" path="/AltasJ.jsp"/>
-      <forward name="altaa" path="/AltasA.jsp"/>
-      <forward name="altap" path="/AltasP.jsp"/>
-      <forward name="altat" path="/AltasT.jsp"/>
-      <forward name="altae" path="/AltasE.jsp"/>
-      <forward name="altaeq" path="/AltasEquipoAction.jsp"/>
-      <forward name="listaj" path="/ListarJ.jsp"/>
-      <forward name="listaa" path="/ListarA.jsp"/>
-      <forward name="listap" path="/ListarP.jsp"/>
-      <forward name="listat" path="/ListarT.jsp"/>
-      <forward name="listae" path="/ListarE.jsp"/>
-      <forward name="listaf" path="/ListarF.jsp"/>
-      <forward name="altaf" path="/AltasF.jsp"/>
-      <forward name="listam" path="/ListarM.jsp"/>
+       <forward name="altap" path="/AltasP.jsp"/>
+       <forward name="altat" path="/AltasT.jsp"/>
+       <forward name="altam" path="/AltasM.jsp"/>
+      <forward name="altares" path="/AltaRes.jsp"/>
       <forward name="altam" path="/AltasM.jsp"/>
       <forward name="altares" path="/AltaRes.jsp"/>
+      <forward name="listae" path="/ListarE.jsp"/>
+      <forward name="listam" path="/ListarM.jsp"/>
+      <forward name="listares" path="/ListarRes.jsp"/>
+      <forward name="listam" path="/ListarM.jsp"/>
       <forward name="listares" path="/ListarRes.jsp"/>
       <forward name="bajas_j" path="/BajasJ.jsp"/>
       <forward name="bajas_e" path="/BajasEquipo.jsp"/>
       <forward name="bajas_entrenador" path="/BajasEntrenador.jsp"/>
       <forward name="bajas_arbitro" path="/BajasArbitro.jsp"/>
+      <forward name="editareq" path="/EditarEq.jsp"/>
+      <forward name="bajas_j" path="/BajasJ.jsp"/>
+      <forward name="bajas_e" path="/BajasEquipo.jsp"/>
+      <forward name="bajas_entrenador" path="/BajasEntrenador.jsp"/>
+      <forward name="bajas_arbitro" path="/BajasArbitro.jsp"/>
+      <forward name="editareq" path="/EditarEq.jsp"/>
+       <forward name="modificar_entrenador" path="/ModEntrenador.jsp"/>
+      <forward name="altae" path="/AltasE.jsp" redirect="true"/>
+      <forward name="altaeq" path="/AltasEquipoAction.jsp"/>
+      <forward name="altaa" path="/AltasA.jsp"/>
+      <forward name="altaf" path="/AltasF.jsp"/>
     </action>
-    <action path="/altj" type="mypackage1.AltasJAction" name="AltasJForm" input="AltasJ.jsp" scope="request">
+    <action path="/altj" type="mypackage1.AltasJAction" name="AltasJForm" input="/AltasJ.jsp" scope="request">
         <forward name="exito" path="/Bueno.jsp"/>
     </action>
     <action path="/alta" type="mypackage1.AltasAAction" name="AltasAForm" input="/AltasA.jsp" scope="request">
-      <forward name="registro_exitoso" path="Bueno.jsp"/>
+      <forward name="registro_exitoso" path="/Bueno.jsp"/>
     </action>
     
     <action path="/alte" type="mypackage1.AltasEAction" name="AltasEForm" input="/AltasE.jsp" scope="request">
-      <forward name="registro_exitoso" path="Bueno.jsp"/>
+      <forward name="registro_exitoso" path="/Bueno.jsp"/>
     </action> 
     
     <action path="/altp" type="mypackage1.AltasPAction" name="AltasPForm" input="/AltasP.jsp" scope="request">
@@ -76,48 +84,55 @@
     <action path="/altt" type="mypackage1.AltasTAction" name="AltasTForm" input="/AltasT.jsp" scope="request">
       <forward name="exito" path="Bueno.jsp"/>
     </action>
-    <action path="/listaj" type="mypackage1.ListarJAction" name="ListarJForm" scope="request"/>
-    <action path="/listaj" type="mypackage1.ListarJAction" name="ListarJForm" input="/ListarJ.jsp" scope="request"/>
-    <action path="/listarE" type="mypackage1.ListarEAction" name="ListarEForm" input="/ListarE.jsp" scope="request"/>
-    <action path="/lis" type="mypackage1.ListarAAction"/>
-    <action path="/listarA" type="mypackage1.ListarAAction" name="ListarAForm" input="/ListarA.jsp" scope="request"/>
-    <action path="/altaf" type="mypackage1.AltasFAction" name="AltasFForm" input="/AltasF.jsp" scope="request">
+    <action path="/listaj" name="ListarJForm" input="/ListarJ.jsp" scope="request" type="mypackage1.ListarJAction"/>
+    <action path="/altam" type="mypackage1.ListarJAction" name="AltasMForm" input="/AltasF.jsp" scope="request">
       <forward name="exito" path="Bueno.jsp"/>
     </action>
-    <action path="/altam" type="mypackage1.ListarMAction" name="AltasMForm" scope="request">
-      <forward name="exito" path="Bueno.jsp"/>
+    <action path="/listares" type="mypackage1.ListarResAction" name="ListarResForm" scope="request">
     </action>
-    <action name="ListarPForm" path="/listarP" scope="request" type="oracle.jbo.html.struts11.actions.TransactionAction"/>
-    <action path="/listares" type="mypackage1.ListarResAction" name="ListarResForm" scope="request"/>
     <action path="/altares" type="mypackage1.AltaResAction" name="AltasResForm" scope="request">
       <forward name="exito" path="Bueno.jsp"/>
       <forward name="fallo" path="Malo.jsp"/>
     </action>
-    <action path="/altaeq" type="mypackage1.AltasEquipoAction" name="AltasEquipoForm" input="/AltasEquipoAction.jsp" scope="request">
+    <action path="/listarP" type="mypackage1.ListarPAction" name="ListarPForm" scope="request" input="/AltasEquipoAction.jsp">
       <forward name="exito" path="Bueno.jsp"/>
       <forward name="fallo" path="Malo.jsp"/>
     </action>
-    <action path="/bajas_jugador" type="mypackage1.BajasJAction" name="BajasJForm" input="/BajasJ.jsp" scope="request">
-       <forward name="exito" path="Bueno.jsp"/>
+    <action path="/bajas_jugador" input="/BajasJ.jsp" name="BajasJForm" scope="request" type="mypackage1.AltaResAction">
+      <forward name="exito" path="Bueno.jsp"/>
       <forward name="mal" path="Malo.jsp"/>
     </action>
-    <action path="/bajas_jugador" type="mypackage1.BajasJAction" name="BajasJForm" input="/BajasJ.jsp" scope="request">
-       <forward name="exito" path="Bueno.jsp"/>
+    <action path="/altares" type="mypackage1.AltaResAction" name="AltasResForm" scope="request" input="/BajasJ.jsp">
+      <forward name="exito" path="Bueno.jsp"/>
       <forward name="mal" path="Malo.jsp"/>
     </action>
     <action path="/bajas_equipo" type="mypackage1.BajasEAction" name="BajasEForm" input="/BajasEquipo.jsp" scope="request">
-      <forward name="exito" path="Bueno.jsp"/>
+       <forward name="exito" path="Bueno.jsp"/>
       <forward name="mal" path="Malo.jsp"/>
     </action>
-      
     <action path="/bajas_entrenador" type="mypackage1.BajasEnAction" name="BajasEnForm" input="/BajasEntrenador.jsp" scope="request">
-      <forward name="exito" path="Bueno.jsp"/>
+       <forward name="exito" path="Bueno.jsp"/>
       <forward name="mal" path="Malo.jsp"/>
     </action>
     <action path="/bajas_arbitro" type="mypackage1.BajasArAction" name="BajasArForm" input="/BajasArbitro.jsp" scope="request">
       <forward name="exito" path="Bueno.jsp"/>
       <forward name="mal" path="Malo.jsp"/>
     </action>
+      
+    <action path="/mod_entrenador" type="mypackage1.ModEnAction">
+      <forward name="vista_modEn" path="ModActualizarEn.jsp"/>
+      <forward name="exito" path="Bueno.jsp"/>
+    </action>
+    <action path="/mod_actualizarEn" type="mypackage1.ModActEnAction">
+      <forward name="exito" path="Bueno.jsp"/>
+      <forward name="mal" path="Malo.jsp"/>
+    </action>
+    <action path="/mod_actualizarEn" type="mypackage1.ModActEnAction" name="ListarAForm" input="/ListarA.jsp" scope="request">
+    </action>
+    <action name="AltasEquipoForm" path="/altaeq" input="/AltasEquipoAction.jsp" scope="request" type="mypackage1.AltasEquipoAction"/>
+    <action name="AltasFForm" path="/altaf" scope="request" type="mypackage1.AltasFAction"/>
+    <action path="/editareq" type="mypackage1.EditarEqAction" name="EditarEqForm" input="/EditarEq.jsp" scope="request"/>
+
   </action-mappings>
   <message-resources parameter="mypackage1.ApplicationResources"/>
 </struts-config>

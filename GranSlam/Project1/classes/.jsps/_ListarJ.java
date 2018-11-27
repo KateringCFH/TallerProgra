@@ -7,7 +7,7 @@ import javax.servlet.http.*;
 import javax.servlet.jsp.*;
 
 
-public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
+public class _ListarJ extends oracle.jsp.runtime.HttpJsp {
 
   public final String _globalsClassName = null;
 
@@ -30,25 +30,29 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
     PageContext pageContext = JspFactory.getDefaultFactory().getPageContext( this, request, response, null, true, JspWriter.DEFAULT_BUFFER, true);
     // Note: this is not emitted if the session directive == false
     HttpSession session = pageContext.getSession();
+    if (pageContext.getAttribute(OracleJspRuntime.JSP_REQUEST_REDIRECTED, PageContext.REQUEST_SCOPE) != null) {
+      pageContext.setAttribute(OracleJspRuntime.JSP_PAGE_DONTNOTIFY, "true", PageContext.PAGE_SCOPE);
+      JspFactory.getDefaultFactory().releasePageContext(pageContext);
+      return;
+}
     int __jsp_tag_starteval;
     ServletContext application = pageContext.getServletContext();
     JspWriter out = pageContext.getOut();
     _ListarJ page = this;
     ServletConfig config = pageContext.getServletConfig();
 
-    com.evermind.server.http.JspCommonExtraWriter __ojsp_s_out = (com.evermind.server.http.JspCommonExtraWriter) out;
     try {
       // global beans
       // end global beans
 
 
-      __ojsp_s_out.write(__jsp_StaticText.text[0]);
-      __ojsp_s_out.write(__jsp_StaticText.text[1]);
-      __ojsp_s_out.write(__jsp_StaticText.text[2]);
-      __ojsp_s_out.write(__jsp_StaticText.text[3]);
+      out.write(__jsp_StaticText.text[0]);
+      out.write(__jsp_StaticText.text[1]);
+      out.write(__jsp_StaticText.text[2]);
+      out.write(__jsp_StaticText.text[3]);
       /*@lineinfo:user-code*//*@lineinfo:16^9*/      out.print( session.getAttribute("ini.usu"));
       /*@lineinfo:generated-code*/
-      __ojsp_s_out.write(__jsp_StaticText.text[4]);
+      out.write(__jsp_StaticText.text[4]);
       /*@lineinfo:translated-code*//*@lineinfo:17^1*/      {
         org.apache.struts.taglib.html.FormTag __jsp_taghandler_1=(org.apache.struts.taglib.html.FormTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.html.FormTag.class,"org.apache.struts.taglib.html.FormTag action");
         __jsp_taghandler_1.setParent(null);
@@ -58,7 +62,7 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
         {
           do {
             /*@lineinfo:generated-code*/
-            __ojsp_s_out.write(__jsp_StaticText.text[5]);
+            out.write(__jsp_StaticText.text[5]);
             /*@lineinfo:translated-code*//*@lineinfo:28^1*/            {
               org.apache.struts.taglib.logic.IterateTag __jsp_taghandler_2=(org.apache.struts.taglib.logic.IterateTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.logic.IterateTag.class,"org.apache.struts.taglib.logic.IterateTag id indexId name property");
               __jsp_taghandler_2.setParent(__jsp_taghandler_1);
@@ -72,12 +76,11 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
               if (OracleJspRuntime.checkStartBodyTagEval(__jsp_tag_starteval))
               {
                 out=OracleJspRuntime.pushBodyIfNeeded(pageContext,__jsp_taghandler_2,__jsp_tag_starteval,out);
-                __ojsp_s_out = (com.evermind.server.http.JspCommonExtraWriter) out;
                 do {
                   tabla = (java.lang.Object) pageContext.findAttribute("tabla");
                   index = (java.lang.Integer) pageContext.findAttribute("index");
                   /*@lineinfo:generated-code*/
-                  __ojsp_s_out.write(__jsp_StaticText.text[6]);
+                  out.write(__jsp_StaticText.text[6]);
                   /*@lineinfo:translated-code*//*@lineinfo:30^9*/                  {
                     org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_3=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
                     __jsp_taghandler_3.setParent(__jsp_taghandler_2);
@@ -94,7 +97,7 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
                     OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_3);
                   }
                   /*@lineinfo:generated-code*/
-                  __ojsp_s_out.write(__jsp_StaticText.text[7]);
+                  out.write(__jsp_StaticText.text[7]);
                   /*@lineinfo:translated-code*//*@lineinfo:31^9*/                  {
                     org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_4=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
                     __jsp_taghandler_4.setParent(__jsp_taghandler_2);
@@ -111,7 +114,7 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
                     OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_4);
                   }
                   /*@lineinfo:generated-code*/
-                  __ojsp_s_out.write(__jsp_StaticText.text[8]);
+                  out.write(__jsp_StaticText.text[8]);
                   /*@lineinfo:translated-code*//*@lineinfo:32^9*/                  {
                     org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_5=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
                     __jsp_taghandler_5.setParent(__jsp_taghandler_2);
@@ -128,7 +131,7 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
                     OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_5);
                   }
                   /*@lineinfo:generated-code*/
-                  __ojsp_s_out.write(__jsp_StaticText.text[9]);
+                  out.write(__jsp_StaticText.text[9]);
                   /*@lineinfo:translated-code*//*@lineinfo:33^9*/                  {
                     org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_6=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
                     __jsp_taghandler_6.setParent(__jsp_taghandler_2);
@@ -145,7 +148,7 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
                     OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_6);
                   }
                   /*@lineinfo:generated-code*/
-                  __ojsp_s_out.write(__jsp_StaticText.text[10]);
+                  out.write(__jsp_StaticText.text[10]);
                   /*@lineinfo:translated-code*//*@lineinfo:34^9*/                  {
                     org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_7=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
                     __jsp_taghandler_7.setParent(__jsp_taghandler_2);
@@ -162,7 +165,7 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
                     OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_7);
                   }
                   /*@lineinfo:generated-code*/
-                  __ojsp_s_out.write(__jsp_StaticText.text[11]);
+                  out.write(__jsp_StaticText.text[11]);
                   /*@lineinfo:translated-code*//*@lineinfo:35^9*/                  {
                     org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_8=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
                     __jsp_taghandler_8.setParent(__jsp_taghandler_2);
@@ -179,7 +182,7 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
                     OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_8);
                   }
                   /*@lineinfo:generated-code*/
-                  __ojsp_s_out.write(__jsp_StaticText.text[12]);
+                  out.write(__jsp_StaticText.text[12]);
                   /*@lineinfo:translated-code*//*@lineinfo:36^9*/                  {
                     org.apache.struts.taglib.bean.WriteTag __jsp_taghandler_9=(org.apache.struts.taglib.bean.WriteTag)OracleJspRuntime.getTagHandler(pageContext,org.apache.struts.taglib.bean.WriteTag.class,"org.apache.struts.taglib.bean.WriteTag name property");
                     __jsp_taghandler_9.setParent(__jsp_taghandler_2);
@@ -196,17 +199,16 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
                     OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_9);
                   }
                   /*@lineinfo:generated-code*/
-                  __ojsp_s_out.write(__jsp_StaticText.text[13]);
+                  out.write(__jsp_StaticText.text[13]);
                 /*@lineinfo:translated-code*//*@lineinfo:36^53*/                } while (__jsp_taghandler_2.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
                 out=OracleJspRuntime.popBodyIfNeeded(pageContext,out);
-                __ojsp_s_out = (com.evermind.server.http.JspCommonExtraWriter) out;
               }
               if (__jsp_taghandler_2.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
                 return;
               OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_2);
             }
             /*@lineinfo:generated-code*/
-            __ojsp_s_out.write(__jsp_StaticText.text[14]);
+            out.write(__jsp_StaticText.text[14]);
           /*@lineinfo:translated-code*//*@lineinfo:38^17*/          } while (__jsp_taghandler_1.doAfterBody()==javax.servlet.jsp.tagext.BodyTag.EVAL_BODY_AGAIN);
         }
         if (__jsp_taghandler_1.doEndTag()==javax.servlet.jsp.tagext.Tag.SKIP_PAGE)
@@ -214,7 +216,7 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
         OracleJspRuntime.releaseTagHandler(pageContext,__jsp_taghandler_1);
       }
       /*@lineinfo:generated-code*/
-      __ojsp_s_out.write(__jsp_StaticText.text[15]);
+      out.write(__jsp_StaticText.text[15]);
 
 
     }
@@ -233,41 +235,41 @@ public class _ListarJ extends com.orionserver.http.OrionHttpJspPage {
 
   }
   private static class __jsp_StaticText {
-    private static final byte text[][]=new byte[16][];
+    private static final char text[][]=new char[16][];
     static {
       try {
       text[0] = 
-      "\n".getBytes("Cp1252");
+      "\n".toCharArray();
       text[1] = 
-      "\n".getBytes("Cp1252");
+      "\n".toCharArray();
       text[2] = 
-      "\n".getBytes("Cp1252");
+      "\n".toCharArray();
       text[3] = 
-      "\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n<title>\nHello World\n</title>\n</head>\n<body>\n<h2>\nLos jugadores registrados se muestran a continuacion\n</h2>\nUSUARIO:".getBytes("Cp1252");
+      "\n<html>\n<head>\n<meta http-equiv=\"Content-Type\" content=\"text/html; charset=windows-1252\">\n<title>\nHello World\n</title>\n</head>\n<body>\n<h2>\nLos jugadores registrados se muestran a continuacion\n</h2>\nUSUARIO:".toCharArray();
       text[4] = 
-      "\n".getBytes("Cp1252");
+      "\n".toCharArray();
       text[5] = 
-      "\n<table  cellspacing=\"2\" cellpadding=\"1\" border=\"1\" width=\"60%\" align=\"center\">\n<tr>\n    <td align=\"center\"><b>Codigo Jugador</b></td>\n    <td align=\"center\"><b>Codigo Equipo</b></td>\n    <td align=\"center\"><b>Codigo Entrenador</b></td>\n    <td align=\"center\"><b>Nombre Jugador</b></td>\n    <td align=\"center\"><b>Apellido Jugador</b></td>\n    <td align=\"center\"><b>Genero</b></td>\n    <td align=\"center\"><b>Ganacia</b></td>\n</tr>\n".getBytes("Cp1252");
+      "\n<table  cellspacing=\"2\" cellpadding=\"1\" border=\"1\" width=\"60%\" align=\"center\">\n<tr>\n    <td align=\"center\"><b>Codigo Jugador</b></td>\n    <td align=\"center\"><b>Codigo Equipo</b></td>\n    <td align=\"center\"><b>Codigo Entrenador</b></td>\n    <td align=\"center\"><b>Nombre Jugador</b></td>\n    <td align=\"center\"><b>Apellido Jugador</b></td>\n    <td align=\"center\"><b>Genero</b></td>\n    <td align=\"center\"><b>Ganacia</b></td>\n</tr>\n".toCharArray();
       text[6] = 
-      "\n<tr>\n    <td>".getBytes("Cp1252");
+      "\n<tr>\n    <td>".toCharArray();
       text[7] = 
-      "</td>\n    <td>".getBytes("Cp1252");
+      "</td>\n    <td>".toCharArray();
       text[8] = 
-      "</td>\n    <td>".getBytes("Cp1252");
+      "</td>\n    <td>".toCharArray();
       text[9] = 
-      "</td>\n    <td>".getBytes("Cp1252");
+      "</td>\n    <td>".toCharArray();
       text[10] = 
-      "</td>\n    <td>".getBytes("Cp1252");
+      "</td>\n    <td>".toCharArray();
       text[11] = 
-      "</td>\n    <td>".getBytes("Cp1252");
+      "</td>\n    <td>".toCharArray();
       text[12] = 
-      "</td>\n    <td>".getBytes("Cp1252");
+      "</td>\n    <td>".toCharArray();
       text[13] = 
-      "</td>\n</tr>\n".getBytes("Cp1252");
+      "</td>\n</tr>\n".toCharArray();
       text[14] = 
-      "\n</table>\n".getBytes("Cp1252");
+      "\n</table>\n".toCharArray();
       text[15] = 
-      "\n</body>\n</html>\n".getBytes("Cp1252");
+      "\n</body>\n</html>\n".toCharArray();
       }
       catch (Throwable th) {
         System.err.println(th);
